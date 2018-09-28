@@ -179,6 +179,24 @@ li.selected {
 
 /* #5 CHAT BAR */
 
+#chat-bar #arrow{
+    position:absolute;
+    right: 16px;
+    border: none;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+
+
+}
+
+#chat-bar input {
+
+    position:absolute;
+    bottom: 30px;
+}
+
 #chat-bar button {
     /* #5 #smileys #override button styles. We set the chat bar to appear like a tab-bar above. This overrides the tab bar's button scaling */
     width: auto;
@@ -269,4 +287,9 @@ li.selected {
 
 .message.own {
     margin-left: 17.5%;
+}
+
+.far fa-star, .fas fa-star, .fas fa-chevron-right{
+    font-size: 24px;
+
 }
